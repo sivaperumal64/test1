@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background-color: cadetblue;
+}
+
+.container{
+  flex-direction: column;
+  box-shadow:15px;
+  flex-wrap: wrap;
+
+}
+
+div{
+  text-align: center;
+ 
+  
+}
+
+button{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+.container1{
+  flex: content;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.box{
+  
+  width: 650px;
+  height: 400px;
+  background-color: aliceblue;
+  border-style: solid;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 500px;
+  margin-top: 200px;
+
+  
+}
+
+.container2{
+ 
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
